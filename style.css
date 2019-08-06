@@ -1,0 +1,33 @@
+.winner {
+    color: rgb(145, 46, 29);
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+div {
+    display: block;
+    margin: 7em auto;
+    border: 5px dashed darkcyan;
+    padding: 3em;
+}
+#count, h2 {
+    text-align: center;
+}
+
+button {
+    background-color: darkcyan;
+    color: white;
+    border-radius: 7px;
+    padding: 5px;
+}
+input {
+    width: 100%;
+    margin: 20px 0;
+
+}
