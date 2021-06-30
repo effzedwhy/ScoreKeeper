@@ -79,7 +79,8 @@
       }
 
       numInput.addEventListener("change", function() {
-        playingTo.innerText = `"Playing to:" + this.value`;
+        let winnerNum = this.value;
+        playingTo.innerText = "Playing to:" + "winnerNum";
         winningScore = Number(this.value);
         playingTo.textContent = "";
         reset();
