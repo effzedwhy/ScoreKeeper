@@ -16,7 +16,7 @@ div {
     border: 3px solid darkcyan;
     border-radius: 5px;
     padding: 3em;
-    height: 600px;
+    height: 400px;
 }
 #count, h2 {
     text-align: center;
@@ -28,9 +28,10 @@ button {
     color: white;
     border-radius: 7px;
     padding: 12px;
+    
 }
 input {
-    width: 100%;
-    margin: 20px 0;
+    width: 50%;
+    margin: 40px 0 20px 0;
 
 }
