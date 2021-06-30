@@ -1,5 +1,11 @@
-.winner {
+.iswinner {
     color: green;
+   }
+
+.winner {
+    color: green:
+        text-align: center;
+    align-self: center;
 }
 body {
     display: flex;
