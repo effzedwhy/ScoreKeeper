@@ -16,6 +16,7 @@ div {
     border: 3px solid darkcyan;
     border-radius: 5px;
     padding: 3em;
+    height: 600px;
 }
 #count, h2 {
     text-align: center;
