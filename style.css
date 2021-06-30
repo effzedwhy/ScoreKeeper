@@ -1,11 +1,11 @@
 .winner {
-    color: rgb(145, 46, 29);
+    color: green;
 }
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: monospace;
+    font-family: verdana;
     font-size: 18px;
     text-decoration: none;
 }
@@ -13,7 +13,8 @@ body {
 div {
     display: block;
     margin: 7em auto;
-    border: 5px dashed darkcyan;
+    border: 3px solid darkcyan;
+    border-radius: 5px;
     padding: 3em;
 }
 #count, h2 {
@@ -22,9 +23,10 @@ div {
 
 button {
     background-color: darkcyan;
+    border: none;
     color: white;
     border-radius: 7px;
-    padding: 5px;
+    padding: 12px;
 }
 input {
     width: 100%;
