@@ -12,6 +12,7 @@ body {
 
 .container {
     display: flex;
+    flex-direction: column;
     justify-item: center;
     margin: 7em auto;
     border: 3px solid darkcyan;
