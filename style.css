@@ -19,7 +19,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    justify-item: center;
+    justify-content: center;
     margin: 7em auto;
     border: 3px solid darkcyan;
     border-radius: 5px;
