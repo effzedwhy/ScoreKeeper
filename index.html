@@ -38,7 +38,7 @@
         if (!gameOver) {
           score++;
           if (score === winningScore) {
-            p1Display.classList.add("winner");
+            p1Display.classList.add("iswinner");
             gameOver = true;
             winner.innerText = "Player one won!"
           }
@@ -53,7 +53,7 @@
           if (!gameOver) {
             scoreTwo++;
             if (scoreTwo === winningScore) {
-              p2Display.classList.add("winner");
+              p2Display.classList.add("iswinner");
             
               gameOver = true;
                        winner.innerText = "Player two won!"
@@ -71,8 +71,8 @@
         scoreTwo = 0;
         p1Display.textContent = 0;
         p2Display.textContent = 0;
-        p1Display.classList.remove("winner");
-        p2Display.classList.remove("winner");
+        p1Display.classList.remove("iswinner");
+        p2Display.classList.remove("iswinner");
         gameOver = false;
         winner.innerText = "";
       }
