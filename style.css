@@ -38,6 +38,7 @@ button {
     color: white;
     border-radius: 7px;
     padding: 12px;
+    margin: 10px;
     }
 .buttons-container {
 display: flex;
@@ -47,5 +48,6 @@ display: flex;
 input {
     width: 50%;
     margin: 20px auto;
+    border-radius: 7px;
 
 }
