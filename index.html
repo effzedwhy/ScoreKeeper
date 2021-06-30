@@ -37,6 +37,7 @@
           if (score === winningScore) {
             p1Display.classList.add("winner");
             gameOver = true;
+            document.querySelector(h1).innerText = "Player one won!"
           }
           p1Display.textContent = score;
 
@@ -52,6 +53,7 @@
               p2Display.classList.add("winner");
             
               gameOver = true;
+                       document.querySelector(h1).innerText = "Player one won!"
             }
          
             p2Display.textContent = scoreTwo;
