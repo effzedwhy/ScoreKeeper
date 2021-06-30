@@ -81,6 +81,7 @@
       numInput.addEventListener("change", function() {
         playingTo.textContent = this.value;
         winningScore = Number(this.value);
+        playingTo.textContent = "";
         reset();
       });
     </script>
