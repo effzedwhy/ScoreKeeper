@@ -20,25 +20,26 @@
     
 
     <script>
-      var winningScore = 5;
-      var scoreInput = document.getElementById("#gameNumber");
-      var p1Display = document.querySelector("#p1Display");
-      var p2Display = document.querySelector("#p2Display");
-      var resetButton = document.querySelector("#reset");
-      var playingTo = document.querySelector("#playingNum");
-      var numInput = document.querySelector("input");
-      var score = 0;
-      var scoreTwo = 0;
-      var gameOver = false;
+      let winningScore = 5;
+      let scoreInput = document.getElementById("#gameNumber");
+      let p1Display = document.querySelector("#p1Display");
+      let p2Display = document.querySelector("#p2Display");
+      let resetButton = document.querySelector("#reset");
+      let playingTo = document.querySelector("#playingNum");
+      let numInput = document.querySelector("input");
+      let winner = document.querySelector(".winner");
+      let score = 0;
+      let scoreTwo = 0;
+      let gameOver = false;
 
-      var p1button = document.querySelector("#playerone");
+      let p1button = document.querySelector("#playerone");
       p1button.addEventListener("click", function() {
         if (!gameOver) {
           score++;
           if (score === winningScore) {
             p1Display.classList.add("winner");
             gameOver = true;
-            document.querySelector(".winner").innerText = "Player one won!"
+            winner.innerText = "Player one won!"
           }
           p1Display.textContent = score;
 
@@ -54,7 +55,7 @@
               p2Display.classList.add("winner");
             
               gameOver = true;
-                       document.querySelector(".winner").innerText = "Player one won!"
+                       winner.innerText = "Player two won!"
             }
          
             p2Display.textContent = scoreTwo;
